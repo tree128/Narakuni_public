@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dddd5029fbabc654e83ff81c0ccac9d6, type: 3}
+  m_Name: ExBombEggData
+  m_EditorClassIdentifier: 
+  EggSprite: {fileID: 21300000, guid: dc77276d2521a4b49b858d7b93245e48, type: 3}
+  BombSprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  DefaultColor: {r: 1, g: 1, b: 1, a: 1}
+  BombColor: {r: 1, g: 0, b: 0, a: 1}
+  DefaultScale: 1.2
+  EffectSize: 7.5
+  DefaultRadius: 1.2
+  BombRadius: 0.5
+  SpeedX_Ground: 1.2
+  ShootFirstSpeedY: 6.4
+  ShootSpeedYDeceleration: 0.32
+  ShootRotationSpeed: 14
+  ImpactXPos_A: -0.5
+  ImpactXPosAnother_A: 0.5
+  ImpactXPos: 1.5
+  ImpactXPosAnother: 2.5
+  ImpactMaxDistance_A: 10
+  ImpactMinDistance: 0
+  ImpactBlocker_Left: {fileID: 0}
+  ImpactBlocker_Right: {fileID: 0}
+  ImpactYPos: 1.5
+  SpeedX_Rebound: 1.2
+  ReboundFirstSpeed: 9.2
+  ReboundSpeedYDeceleration: 0.26
+  ReboundRotationSpeed: 4
+  FallWaterXPos: -1
+  FallWaterXPosAnother: 1
+  FallWaterXPosShort: 1.5
+  FallWaterXPosLong: 10
+  FallWaterYPos: 0
+  WaterSpeedXRate: 70
+  WaterSpeedXDeceleration: 0.01
+  WaterFirstSpeedY: 4
+  SecondsForWaterDeceleration: 0.75
+  WaterSpeedYDeceleration: 0.02
+  WaterSpeedYDecelerationAnother: 0.15
+  WaterRotationSpeed: 1
+  SecondsForStartingToBlink: 0.7
+  SecondsForFirstBlink: 0.1
+  SecondsForFirstDefault: 0.2
+  BlinkNum: 3
+  SecondsForSecondBlink: 0.05
+  SecondsForSecondDefault: 0.05
+  SecondsForBomb: 1.5
+  SecondsForKeepingDamage: 0.5
+  SecondsForFadeOut: 0.3
